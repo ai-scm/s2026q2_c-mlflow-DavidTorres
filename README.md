@@ -1,7 +1,5 @@
 # 🧪 Taller Hands-On: MLflow + Docker – Del dato al modelo desplegado
 
-**Semillero:** `semillero-2026-q4-c`  
-**Autor:** David Santiago Torres Mendieta  
 **Tutorial base:** [mtpatter/mlflow-tutorial](https://github.com/mtpatter/mlflow-tutorial)
 
 ---

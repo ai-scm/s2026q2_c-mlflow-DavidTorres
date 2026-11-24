@@ -9,7 +9,7 @@ Implementar de forma práctica y reproducible el ciclo de vida completo de un mo
 
 ---
 
-## 🔄 2. Conexión: Data Lifecycle vs. ML Lifecycle
+## 2. Conexión: Data Lifecycle vs. ML Lifecycle
 
 Al pasar de flujos tradicionales de ingeniería de datos a MLOps, las etapas fundamentales evolucionan de la siguiente manera:
 

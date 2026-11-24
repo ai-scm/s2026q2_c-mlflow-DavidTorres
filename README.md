@@ -1,10 +1,10 @@
-# 🧪 Taller Hands-On: MLflow + Docker – Del dato al modelo desplegado
+# Taller Hands-On: MLflow + Docker – Del dato al modelo desplegado
 
 **Tutorial base:** [mtpatter/mlflow-tutorial](https://github.com/mtpatter/mlflow-tutorial)
 
 ---
 
-## 🎯 1. Objetivo del Taller
+## 1. Objetivo del Taller
 Implementar de forma práctica y reproducible el ciclo de vida completo de un modelo de Machine Learning (clasificación binaria con `scikit-learn` sobre el dataset *Breast Cancer*), abarcando desde la inspección inicial de datos hasta su exposición como una API REST versionada mediante **MLflow** y **Docker**.
 
 ---
@@ -22,7 +22,7 @@ Al pasar de flujos tradicionales de ingeniería de datos a MLOps, las etapas fun
 
 ---
 
-## 📁 3. Estructura del Repositorio
+## 3. Estructura del Repositorio
 
 ```text
 .
@@ -44,7 +44,7 @@ Al pasar de flujos tradicionales de ingeniería de datos a MLOps, las etapas fun
 
 ---
 
-## 🛠️ 4. Desarrollo Paso a Paso
+## 4. Desarrollo Paso a Paso
 
 ### Paso 1: Preparación del entorno y clonación
 Se clonó el repositorio base dentro del espacio de trabajo y se verificó la disponibilidad de Docker y Docker Compose para ejecutar todo el ciclo de vida de MLflow en contenedores aislados:
@@ -96,7 +96,7 @@ Se ejecutó el flujo completo con servidor MLflow centralizado (`docker-compose.
 
 ---
 
-## ☁️ 5. Equivalencia en Arquitectura Cloud (AWS)
+## 5. Equivalencia en Arquitectura Cloud (AWS)
 
 El flujo contenedorizado implementado en este taller se traduce directamente a servicios administrados en AWS:
 * **MLflow Tracking y Model Registry (`mlflow.db`)** $\rightarrow$ *Amazon SageMaker Model Registry* / *SageMaker Managed MLflow*.
